@@ -61,11 +61,11 @@ Organised around the OWASP Top 10 for LLM Applications and the NIST AI RMF.
 
 ![From a code change to prod](docs/images/code-to-prod.png)
 
-GitHub Actions or Jenkins, Allure reports, Jira and TestRail sync, Slack or Teams summaries, run history and flaky-test trends in Postgres.
+GitHub Actions or Jenkins, Allure reports published to Cloudflare Pages behind Cloudflare Access login, Jira and TestRail sync, Slack or Teams summaries, run history and flaky-test trends in Postgres, and a daily AI-cost report.
 
 ## Stack
 
-TypeScript, Java, Python, Playwright, Cucumber / pytest-bdd, Allure, Claude Agent SDK, Playwright MCP, GitHub Actions, Docker, Supabase/Postgres, Jira, TestRail, Slack.
+TypeScript, Java, Python, Playwright, Cucumber / pytest-bdd, Allure, Claude Agent SDK, Playwright MCP, OpenRouter (a model per agent, a different model family for review), GitHub Actions, Docker, Cloudflare Pages and Access, Supabase/Postgres, Jira, TestRail, Slack.
 
 ---
 Source available for review on request.
